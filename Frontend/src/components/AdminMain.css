@@ -1,0 +1,306 @@
+/* General Styles */
+.timetable-management {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Reduced padding */
+  background-color: #f8f8f8;
+  height: 70px; /* Adjusted height */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 90px; /* Adjust the size as needed */
+  height: auto;  
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 3em; /* Increased font size */
+  font-weight: bold;
+  color: #333; /* Set a color to make it stand out */
+}
+
+.login {
+  font-size: 1.2em;
+}
+
+.login a {
+  text-decoration: none;
+  color: #ff4081;
+  padding: 5px 10px; /* Added padding for better clickability */
+  border: 1px solid #ff4081;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.login a:hover {
+  background-color: #ff4081;
+  color: #fff;
+  border-color: #ff4081;
+}
+
+/* Main Content Styles */
+.main-content {
+  text-align: center;
+  padding: 50px;
+  max-width: 100%;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  padding: 12px 24px;
+  font-size: 1.2em;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #e0356e;
+}
+
+/* Empower Section Styles */
+.empower-section {
+  margin-top: 50px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.empower-section h2 {
+  font-size: 1.8em;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.empower-section p {
+  font-size: 1.2em;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.features-section h2 {
+  font-size: 2em;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: background-color 0.3s, color 0.3s;
+  animation: fadeInUp 1s ease-out;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.feature p {
+  font-size: 1em;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.feature:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+.feature:hover h3 {
+  color: white;
+}
+
+.feature:hover p {
+  color: white;
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 50px 20px;
+}
+
+.benefits-section h2 {
+  font-size: 2em;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.benefits-section ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.benefits-section li {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  animation: fadeInUp 1s ease-out;
+}
+
+.benefits-section li:hover {
+  background-color: #ff4081;
+  color: white;
+  transform: translateY(-10px); /* Slight lift effect */
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  position: relative; /* To position the animated line */
+}
+
+.testimonials-section h2 {
+  font-size: 2em;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: background-color 0.3s, transform 0.3s;
+  animation: slideIn 1s ease-in-out;
+}
+
+.testimonial p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonial cite {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.testimonial:hover {
+  background-color: #ff4081;
+  color: white;
+  transform: translateX(10px); /* Slide effect */
+}
+
+/* Animated Line */
+.animated-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #ff4081;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1s ease-in-out;
+}
+
+.testimonials-section::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff4081;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1s ease-in-out;
+}
+
+.testimonials-section:hover::after {
+  transform: scaleX(1);
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

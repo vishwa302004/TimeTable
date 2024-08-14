@@ -1,0 +1,108 @@
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: sticky; /* Stick to the top */
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1em;
+  color: #333; /* Dark grey text */
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Dark grey text */
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  background-color: #ff4081; /* Highlight on hover */
+  color: #fff; /* White text on hover */
+  text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content depth */
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.main-content h1 {
+  font-size: 2em; /* Size specified earlier */
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 1.2em; /* Size specified earlier */
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #e0356e;
+}
+
+/* Empower Section Styles */
+.empower-section {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.empower-section h2 {
+  font-size: 1.8em; /* Size specified earlier */
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.empower-section p {
+  font-size: 1.2em;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+}

@@ -1,0 +1,66 @@
+.batches-table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .batches-table h2 {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .batches-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .batches-table th, .batches-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .batches-table th {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .action-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .action-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .timetable-button {
+    border: none;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .timetable-button.upload {
+    background-color: #2c3e50;
+  }
+  
+  .timetable-button.upload:hover {
+    background-color: #1a252f;
+  }
+  
+  .timetable-button.view {
+    background-color: #27ae60;
+  }
+  
+  .timetable-button.view:hover {
+    background-color: #1e8449;
+  }

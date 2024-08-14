@@ -1,0 +1,121 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-section li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-app-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .app-link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .app-link span {
+    margin-left: 8px;
+  }
+  
+  .app-link:hover {
+    color: #007bff;
+  }
+  
+  .footer-social-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .social-link {
+    color: #000; /* Default icon color */
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .social-link.facebook { color: #3b5998; }
+  .social-link.twitter { color: #1da1f2; }
+  .social-link.linkedin { color: #0077b5; }
+  .social-link.youtube { color: #ff0000; }
+  .social-link.pinterest { color: #bd081c; }
+  .social-link.rss { color: #ff6600; }
+  
+  .footer-legal {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #6c757d;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-legal ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-legal li {
+    margin: 0 10px;
+  }
+  
+  .footer-legal a {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  
+  .footer-legal a:hover {
+    text-decoration: underline;
+  }
+  

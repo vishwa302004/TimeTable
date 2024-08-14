@@ -1,0 +1,45 @@
+/* src/TeacherTable.css */
+.teacher-table {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .teacher-table h2 {
+    color: #fff;
+    background-color: #ff4b5c;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .teacher-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teacher-table th, .teacher-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .teacher-table th {
+    background-color: #ff4b5c;
+    color: #fff;
+  }
+  
+  .teacher-table button {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .teacher-table button:hover {
+    background-color: #ff3a4c;
+  }
